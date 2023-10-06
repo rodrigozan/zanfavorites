@@ -10,7 +10,7 @@
     "git_user": "git config user.name 'Rodrigo Zan'",
     "git_email": "git config user.email 'rodzandonadi@gmail.com'",
     "git_add": "git add .",
-    "git_commit": "git commit -m 'First Commit'",
+    "git_commit": "git commit -m 'Correction in scripts of package.json'",
     "git_push": "yarn git_add && yarn git_commit && git push origin master"
   },
   "dependencies": {
