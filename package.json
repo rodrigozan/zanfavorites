@@ -12,7 +12,7 @@
     "git_branch": "git branch -M create_components",
     "git_add": "git add .",
     "git_commit": "git commit -m 'Created LinkCard and LinkList components, and utils/storage, and pages/favorites.js'",
-    "git_push": "yarn git_add && yarn git_commit && git push origin master"
+    "git_push": "yarn git_add && yarn git_commit && git push origin create_components"
   },
   "dependencies": {
     "react": "^18",
