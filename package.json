@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "git_user": "git config user.name 'Rodrigo Zan'",
+    "git_email": "git config user.email 'rodzandonadi@gmail.com'",
+    "git_add": "git add .",
+    "git_commit": "git commit -m 'Add errors outputs in pull-request-autorun.sh'",
+    "git_push": "yarn git_add && yarn git_commit && git push origin master"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "13.5.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
